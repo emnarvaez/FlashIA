@@ -21,7 +21,44 @@ http://www.tooplate.com/view/2097-pop
     <link rel="stylesheet" href="css/tooplate-style.css">                               <!-- Templatemo style -->
 
     <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
     
+        .chat-container {
+          max-width: 100%;
+          margin: 20px auto;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+    
+        .message {
+          padding: 10px;
+          border-bottom: 1px solid #d7d7e4;
+        }
+    
+        .user-message {
+          background-color: #2C2A35;
+          text-align: right;
+        }
+    
+        .ai-message {
+          background-color: #353544;
+          text-align: left;
+        }
+        .contact-form2 {
+      display: flex;
+      margin: 0;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+    }
+    
+        button {
+          margin: 0px;
+        }
+      </style>
 </head>
 
 <body>
@@ -32,9 +69,9 @@ http://www.tooplate.com/view/2097-pop
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
                         <div class="tm-site-header">
-                            <h1 class="mb-4">POP design</h1>
+                            <h1 class="mb-4">Flash IA</h1>
                             <img src="img/underline.png" class="img-fluid mb-4">
-                            <p>New HTML Template with pop up pages and use this layout for your website</p>        
+                            <p>Bienvenidos, Flash IA resuelve el problema de las personas que necesitan asesorar de manera adecuada y funcional su dinero, hemos observado que en el mundo existen muchas personas y empresas que cometen el error de gastar dinero sin un control adecuado.</p>        
                         </div>                        
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -43,28 +80,42 @@ http://www.tooplate.com/view/2097-pop
                                 <div class="grid__item" id="home-link">
                                     <div class="product">
                                         <div class="tm-nav-link">
-                                            <i class="fas fa-home fa-3x tm-nav-icon"></i>
-                                            <span class="tm-nav-text">Welcome</span>
+                                            <i class="fas fa-question fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Chatea con nuestra IA</span>
                                             <div class="product__bg"></div>        
                                         </div>                                    
                                         <div class="product__description">
-                                            <div class="row mb-3">
-                                                <div class="col-12">
-                                                    <h2 class="tm-page-title">Welcome to Pop Design</h2>        
+                                            <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Hola! Hazme una pregunta</h2>        
+                                                    </div>
                                                 </div>
-                                            </div>                                        
-                                            <div class="row">
-                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                    <img src="img/welcome-1.jpg" class="img-fluid mb-3">
-                                                    <p>You can feel free to use this template for your websites. Please tell your friends about Tooplate website. Thank you.</p>
-                                                    <p>Vivamus placerat in nunc eget volutpat. Etiam tincidunt blandit sapien, sed posuere enim. Ut eget ornare lectus.</p>    
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="chat-container">
+                                                            <div class="message ai-message">
+                                                              <p>Hola, ¿en qué puedo ayudarte?</p>
+                                                            </div>
+                                                        
+                                                            <div class="message user-message">
+                                                              <p>Me gustaría saber más sobre...</p>
+                                                            </div>
+                                                        
+                                                            <!-- Puedes agregar más mensajes según la conversación -->
+                                                        
+                                                            <div class="message ai-message">
+                                                              <p>Claro, aquí tienes la información que solicitaste.</p>
+                                                            </div>
+                                                          </div>
+                                                        
+                                                          <form action="#" method="post" class="contact-form contact-form2">
+                                                            <input type="text" id="contact_message" name="contact_message" class="form-control" placeholder="Escribe tu mensaje..." required>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit">Enviar</button>
+                                                          </form>
+                                                    </div>
                                                 </div>
-                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                    <p>Donec eu lectus ligula. Aenean pulvinar dolor et massa lacinia rhoncus sit amet sed mauris. Aliquam dictum nibh et consequat finibus.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mauris, malesuada ut diam eu, pellentesque fringilla orci.</p>
-                                                    <img src="img/welcome-2.jpg" class="img-fluid">
-                                                </div>                                        
-                                            </div>
+                                            </div> 
                                             
                                         </div>
                                     </div>
@@ -74,25 +125,31 @@ http://www.tooplate.com/view/2097-pop
                                     <div class="product">
                                         <div class="tm-nav-link">
                                             <i class="fas fa-users fa-3x tm-nav-icon"></i>
-                                            <span class="tm-nav-text">Our Team</span>
+                                            <span class="tm-nav-text">Nuestro equipo</span>
                                             <div class="product__bg"></div>            
                                         </div>                                     
                                         <div class="product__description">
                                             <div class="p-sm-4 p-2">
                                                 <div class="row mb-3">
                                                     <div class="col-12">
-                                                        <h2 class="tm-page-title">Background of Our Team</h2>        
+                                                        <h2 class="tm-page-title">Integrantes de la empresa</h2>        
                                                     </div>
                                                 </div>
                                                 <div class="row tm-reverse-sm">
                                                     <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                                                        <p class="mb-4">Vestibulum aliquet, arcu accumsan lobortis bibendum, justo velit efficitur lorem, at pulvinar mi justo nec lacus. Nullam et libero aliquet, luctus nunc sit amet, tincidunt ligula. Sed finibus ante sed tortor cursus, nec malesuada lectus interdum.</p>
-                                                        <p class="mb-4">Sed ex turpis, vulputate in efficitur id, lobortis eget nibh. Pellentesque maximus ipsum eget velit imperdiet sodales. Suspendisse in blandit mi.</p>
-                                                        <p class="mb-5">Pellentesque finibus felis risus, ut malesuada felis viverra at. Quisque accumsan in mi non hendrerit.</p>
-                                                        <a href="#" class="btn tm-btn-gray">Read More</a>        
+                                                        <ul>
+                                                            <li>Charlotte Descarpontriez Chavez</li>
+                                                            <li>Fernanda Suarez Méndez</li>
+                                                            <li>Patricia Saavedra Diaz</li>
+                                                            <li>Nicole Alcocer Banegas</li>
+                                                            <li>Rebecca Salas Fernández</li>
+                                                            <li>Denar Viorels Buceta </li>
+                                                            <li>Maria Danna Isabela Olivares Justiniano</li>
+                                                        </ul>
+                                                        <a href="#" class="btn tm-btn-gray">¿Quieres saber más?</a>        
                                                     </div>                                                
                                                     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
-                                                        <img src="img/team.jpg" class="img-fluid">
+                                                        <img src="img/flash.png" class="img-fluid">
                                                     </div>
                                                 </div>
                                             </div>
@@ -103,23 +160,23 @@ http://www.tooplate.com/view/2097-pop
                                 <div class="grid__item">
                                     <div class="product">
                                         <div class="tm-nav-link">
-                                            <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
-                                            <span class="tm-nav-text">Our Work</span>
+                                            <i class="fas fa-object-group fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">Misión y Visión</span>
                                             <div class="product__bg"></div>             
                                         </div>                                                                 
                                         <div class="product__description">
                                             <div class="p-sm-4 p-2">
                                                 <div class="row mb-3">
                                                     <div class="col-12">
-                                                        <h2 class="tm-page-title">Our Work</h2>        
+                                                        <h2 class="tm-page-title">Misión</h2>        
                                                     </div>
                                                 </div>
                                                 <div class="row mb-3">
                                                     <div class="col-12">
-                                                        <p>Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero. Integer at lacus velit. Nullam dapibus venenatis placerat.</p>
+                                                        <p>Nuestra empresa se dedica a proporcionar servicios personalizados de gestión y planificación financiera para nuestros clientes que buscan maximizar su rentabilidad, proteger sus activos y alcanzar su estabilidad financiera a largo plazo. Con nuestro equipo altamente capacitado, enfocado en tecnología avanzada que nos permite ofrecer soluciones innovadoras y adaptadas a las necesidades específicas de cada cliente.</p>
                                                     </div>
                                                 </div>
-                                                <div class="row">
+                                                <!-- <div class="row">
                                                     <div class="col-12">
                                                         <div class="p-sm-4 p-2 tm-img-container">
                                                             <div class="tm-img-slider" id="tmImgSlider">
@@ -132,7 +189,33 @@ http://www.tooplate.com/view/2097-pop
                                                             </div>
                                                         </div>  
                                                     </div>
+                                                </div> -->
+                                            </div>
+                                            <div class="p-sm-4 p-2">
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <h2 class="tm-page-title">Visión</h2>        
+                                                    </div>
                                                 </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-12">
+                                                        <p>Buscamos brindarles un soporte económico a aquellas empresas y/o personas que buscan estabilizarse financieramente.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                              <img src="img/gallery-img-01-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-02-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-03-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-04-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-05-tn.jpg" alt="Image" class="tm-slider-img">
+                                                              <img src="img/gallery-img-06-tn.jpg" alt="Image" class="tm-slider-img">
+                                                            </div>
+                                                        </div>  
+                                                    </div>
+                                                </div> -->
                                             </div>
                                         </div>       
                                     </div>
@@ -142,19 +225,19 @@ http://www.tooplate.com/view/2097-pop
                                     <div class="product">
                                         <div class="tm-nav-link">
                                             <i class="fas fa-comments fa-3x tm-nav-icon"></i>
-                                            <span class="tm-nav-text">Contact</span>
+                                            <span class="tm-nav-text">Contactanos</span>
                                             <div class="product__bg"></div>             
                                         </div>                                                              
                                         <div class="product__description">
                                             <div class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3">
                                                 <div class="row mb-3">
                                                     <div class="col-12">
-                                                        <h2 class="tm-page-title">Contact Us</h2>        
+                                                        <h2 class="tm-page-title">Contactate con nuestro equipo</h2>        
                                                     </div>
                                                 </div>
                                                 <div class="row mb-4">
                                                     <div class="col-12">
-                                                        <p>Lorem ipsum dolor site amet, consectetur adipiscing elit. Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero.</p>
+                                                        <p>Envianos un mensaje y te responderemos lo mas rapido posible.</p>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -162,16 +245,16 @@ http://www.tooplate.com/view/2097-pop
                                                         <form action="index.html" method="post" class="contact-form">
                                                             <div class="row">
                                                                 <div class="form-group col-md-6 col-lg-6 col-xl-6">
-                                                                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                                                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Nombre"  required/>
                                                                 </div>
                                                                 <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
-                                                                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                                                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Correo eletrónico"  required/>
                                                                 </div>
                                                             </div>                                                        
                                                             <div class="form-group">
-                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                                              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Mensaje" required></textarea>
                                                             </div>
-                                                            <button type="submit" class="btn btn-primary tm-btn-submit">Submit</button>
+                                                            <button type="submit" class="btn btn-primary tm-btn-submit">Enviar</button>
                                                         </form>
                                                     </div>
                                                 </div>
@@ -185,9 +268,9 @@ http://www.tooplate.com/view/2097-pop
                 </div>                
             </div>
             <footer>
-                <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2018</span> Your Company. 
+                <!-- <p class="small tm-copyright-text">Copyright &copy; <span class="tm-current-year">2018</span> Your Company. 
                 
-                Layout: Tooplate</p>
+                Layout: Tooplate</p> -->
             </footer>
         </div> <!-- .tm-main-content -->  
     </div>
